@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <meta charset="utf-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover, maximum-scale=1, user-scalable=no">
+ <meta name="description" content="im learning coding this is my first html">
+ <title>BASTA ITO TITLE</title>
+ <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+ <button class="nav-btn" id="open-nav">☰</button>
+<nav class="sidebar" id="menu">
+ <div class="sidebar-top">
+  <button class="close" id="close-btn">✕</button>
+  <div class="header">
+   <h2>HOME</h2>
+  </div>
+ </div>
+ <div class="links">
+  <a href="profile.html" class="items">PROFILE</a>
+  <a href="about.html" class="items">ABOUT</a>
+ </div>
+ <img class="pic2" src="ikawha.jpg" width="232.2" alt="ikawha.jpg">
+</nav>
+  
+<main style="flex: 1; display: flex; flex-direction: column; align-items: center; justify-content: center; padding: 40px 20px; margin: 0;">
+<video autoplay muted loop playsinline class="bg-video">
+ <source src="gif.mp4" type="video/mp4">
+</video>
+ <audio id="days" src="days.mp3" loop></audio>
+ <div class="content-box">
+  <h1>WAZZUP</h1>
+   <div class="notes">
+    <h2 style="margin: 0 0 10px 0; color: orange;">Simple JavaScript:</h2>
+    <pre style="font-family: monospace; white-space: pre-wrap; word-break: break-word;"><code>let bag = ["apple", "grapes", "coins"]; 
+if (bag.includes("coins")) { 
+     console.log("Coins found!"); 
+} esle { 
+     console.log("No coins"); 
+}</code></pre>
+   </div>
+ </div>
+ <div class="content-box" style="padding: 5px 60px;">
+  <h3 style="color: orange; font-size: 16px; margin-bottom: 10px;">Test JavaScript Here</h3>
+  <textarea class="input1" id="input" placeholder="Lagay mo dito yung js boi!" style="width: 100%; height: 80px; background: transparent; color: white; border: 1px solid black; border-radius: 8px; padding: 8px 20px; font-family: monospace; resize: none; backdrop-filter: blur(10px);"></textarea>
+  <button id="run" class="button" style="margin: 8px 0; padding: 5px 20px; width: 100%;">RUN</button>
+  <div style="margin-top: 5px;">
+   <p style="color: black; font-size: 12px; margin-bottom: 3px;">Output:</p>
+   <pre id="output" style="background: transparent; color: #0f0; padding: 8px; border-radius: 8px; min-height: 40px; max-height: 100px; overflow-y: auto; font-family: monospace; font-size: 13px; white-space: pre-wrap; word-break: break-word; backdrop-filter: blur(10px);"></pre>
+  </div>
+ </div>
+</main>
+
+<footer>
+     <p>Eyy may footer pa made with 🖕🏻</p>
+     <p>#IkawAngBagyo!</p>
+</footer>
+ <script src="script.js">
+ </script>
+</body>
+</html>
